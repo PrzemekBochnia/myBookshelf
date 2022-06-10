@@ -1,0 +1,22 @@
+.active{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+    background-color: goldenrod;
+    padding: 50px 0px;
+}
+.hidden{
+    display: none;
+}
+.listItem li{
+    list-style: none;
+}
+.listItem li a{
+    color: black;
+    text-decoration: none;
+}
+.listItem li a:hover{
+    color: whitesmoke;
+    transition: 0.5s;
+}

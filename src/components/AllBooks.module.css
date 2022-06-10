@@ -1,0 +1,80 @@
+.toRead{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.toRead:hover{
+  color: goldenrod;
+  transition: 0.5s;
+}
+.alreadyRead{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.visible{
+    display: flex;
+    flex-direction: column;
+}
+.active{
+  display: flex;
+}
+.visible h2{
+  color: black;
+}
+.hidden{
+    display: none;
+}
+.listContainer{
+  background-image: url('../assets/bookList.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+}
+.listItem{
+  display: flex;
+  align-self: center;
+  /* padding: 0px 110px; */
+  list-style: none;
+  gap: 20px;
+}
+.listItem div{
+ width: 300px;
+}
+.listItem button{
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  min-width: 200px;
+  background: none;
+  color: black
+}
+.listItem button:hover{
+  color: goldenrod;
+  transition: 0.5s;
+  background-color: black;
+  border-radius: 0 40% 0 40%;
+}
+.btnContainer{
+  display: flex;
+  gap: 20px;
+}
+.btnContainer button{
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: none;
+  background: none;
+}
+.btnContainer button:hover{
+  color: goldenrod;
+  transition: 0.5s;
+  background-color: black;
+  border-radius: 0 40% 0 40%;
+}

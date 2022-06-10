@@ -1,0 +1,64 @@
+.visible{
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+
+}
+.hidden{
+    display: none;
+}
+.visible input{
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.visible button{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    align-self: center;
+    margin-bottom: 50px;
+    border: none;
+    background: none;
+}
+.visible button:hover{
+    color: goldenrod;
+    transition: 0.5s;
+    background-color: black;
+    border-radius: 0 40% 0 40%;
+}
+.visible h2{
+    align-self: center;
+}
+.visible div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px 110px; */
+    list-style: none;
+    background-color: grey;
+
+}
+
+.visible div li{
+    padding: 10px 0px;
+}
+.visible div li a{
+    text-decoration: none;
+    color: black;
+    padding:0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.visible div li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.listItem{
+    display: flex;
+    align-self: center;
+    padding: 0px 110px;
+    list-style: none;
+    gap: 20px;
+  }

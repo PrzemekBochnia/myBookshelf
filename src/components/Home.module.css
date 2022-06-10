@@ -1,0 +1,14 @@
+.navi{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navi div{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.navi div:hover{
+    color: goldenrod;
+    transition: 0.5s;
+}

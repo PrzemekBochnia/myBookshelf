@@ -1,0 +1,9 @@
+.visible{
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+.visible h1{
+    color: white;
+}
